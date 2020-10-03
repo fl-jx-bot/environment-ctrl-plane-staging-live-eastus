@@ -5,4 +5,6 @@ pipelineConfig:
   env:
   - name: DEPLOY_NAMESPACE
     value: tvpass-edge-svc-az-staging
+  - name: CHART_REPOSITORY
+    value: http://chartmuseum-edge-service.az-poc.firstlight.ai
   pipelines: {}
