@@ -1,0 +1,8 @@
+env:
+- name: DEPLOY_NAMESPACE
+  value: tvpass-edge-svc-az-staging
+pipelineConfig:
+  env:
+  - name: DEPLOY_NAMESPACE
+    value: tvpass-edge-svc-az-staging
+  pipelines: {}

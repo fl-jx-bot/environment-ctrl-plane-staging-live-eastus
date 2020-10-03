@@ -6,7 +6,7 @@ pipeline {
     label "jenkins-maven"
   }
   environment {
-    DEPLOY_NAMESPACE = "change-me"
+    DEPLOY_NAMESPACE = "tvpass-edge-svc-az-staging"
   }
   stages {
     stage('Validate Environment') {
