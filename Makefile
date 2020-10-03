@@ -1,4 +1,4 @@
-CHART_REPO := http://jenkins-x-chartmuseum:8080
+CHART_REPO := http://chartmuseum-edge-service.az-poc.firstlight.ai
 DIR := "env"
 NAMESPACE := "tvpass-edge-svc-az-staging"
 OS := $(shell uname)
